@@ -7256,6 +7256,7 @@ body._lock {
 	.header__inner._active .header__order-btn {
 		position: static;
 		top: unset;
+		margin-bottom: 30px;
 		border-radius: 7px;
 	}
 }
