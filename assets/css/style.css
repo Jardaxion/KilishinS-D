@@ -7380,7 +7380,7 @@ body._lock {
 	color: white;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 420px) {
 	.portfolio__item {
 		height: 230px !important;
 	}
