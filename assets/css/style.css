@@ -3623,6 +3623,7 @@ input[type=file]::-webkit-file-upload-button {
 	.nbanner__block {
 		margin-left: 0;
 		text-align: center;
+		padding: 0 25px;
 	}
 
 	.nbanner__text-2 {
@@ -3743,6 +3744,11 @@ input[type=file]::-webkit-file-upload-button {
 
 	.section-grey {
 		background-color: white;
+	}
+
+	.nbanner__title {
+		text-align: center;
+		font-size: 24px;
 	}
 
 	/*.header__logo {
@@ -5143,6 +5149,14 @@ input[type=file]::-webkit-file-upload-button {
 
 	.project__step-position {
 		font-size: 1.8rem;
+	}
+
+	.nbanner {
+		padding: 43px 0 47px;
+	}
+
+	.nbanner__title {
+    	margin-bottom: 7px;
 	}
 }
 
