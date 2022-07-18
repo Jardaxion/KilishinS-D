@@ -1794,7 +1794,7 @@ input[type=file]::-webkit-file-upload-button {
 .portfolio__item {
 	grid-column: 3 span;
 	position: relative;
-	height: 458px;
+	height: 457px;
 	display: -ms-flexbox;
 	display: flex;
 }
@@ -3729,6 +3729,10 @@ input[type=file]::-webkit-file-upload-button {
 		justify-content: space-between;
 	}
 
+	.section-vacancy {
+		height: auto;
+	}
+
 	/*.header__logo {
         position: absolute;
         top: 0;
@@ -3738,7 +3742,8 @@ input[type=file]::-webkit-file-upload-button {
 	.header__logo {
 		background: #4B39BE;
 		width: 133px;
-		padding: 13px 0 7px;
+		/* padding: 13px 0 7px; */
+		padding: 7px;
 		border-bottom-left-radius: 10px;
 		border-bottom-right-radius: 10px;
 		color: #fff;
@@ -7268,8 +7273,8 @@ body._lock {
 }
 
 @media screen and (max-width: 420px) {
-	.default {
-		padding: 60px 0px;
+	.default:not(:first-of-type) {
+		padding: 30px 0px;
 	}
 }
 
