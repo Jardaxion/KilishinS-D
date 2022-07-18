@@ -3889,6 +3889,10 @@ input[type=file]::-webkit-file-upload-button {
 		margin-top: 22px;
 	}
 
+	.portfolio__item-title span {
+		font-weight: 100;
+	}
+
 	.footer__top {
 		flex-wrap: wrap;
 		text-align: center;

@@ -87,6 +87,34 @@ $(function() {
 			}
 		});
 	}
+	//Footer Lang switcher
+	$('.copyright__langs a').on('click', function(e){
+		e.preventDefault();
+
+		$('html').attr('lang', $(this).data('lang'));
+
+		if($(window).width() >= '768'){
+			$('.lang a').each(function(){
+				if($(this).hasClass('_active')){
+					$(this).removeClass('_active');
+				} else {
+					$(this).addClass('_active');
+				}
+			})
+		} else {
+			let lang = $('.lang a');
+
+			console.log(lang);
+
+			if(lang.data('lang') == 'ru'){
+				lang.text('En');
+				lang.data('lang', 'en');
+			} else {
+				lang.text('Ru');
+				lang.data('lang', 'ru');
+			}
+		}
+	})
 
 	//Vacancy Value
 	$(".vacancy__list-link").on("click",function(e){
