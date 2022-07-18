@@ -7217,6 +7217,10 @@ body._lock {
 		opacity: 0;
 		visibility: hidden;
 		z-index: 10;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
 	}
 }
 
@@ -7236,7 +7240,7 @@ body._lock {
 
 @media screen and (max-width: 767px) {
 
-	.header__menu._active .header__nav {
+	.header__menu .header__nav {
 		flex-direction: column;
 		height: unset;
 		overflow-x: unset;
@@ -7275,7 +7279,7 @@ body._lock {
 
 @media screen and (max-width: 767px) {
 
-	.header__inner._active .header__order-btn {
+	.header__inner .header__order-btn {
 		position: static;
 		top: unset;
 		margin-bottom: 30px;
@@ -7381,6 +7385,12 @@ body._lock {
 }
 
 @media (max-width: 420px) {
+	.portfolio__item {
+		height: 280px !important;
+	}
+}
+
+@media (max-width: 350px) {
 	.portfolio__item {
 		height: 230px !important;
 	}
