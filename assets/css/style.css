@@ -1482,16 +1482,19 @@ input[type=file]::-webkit-file-upload-button {
 
 .lang__item a {
 	font-size: 12px;
-	color: #1B1B1B;
+	color: #4B39BE;
 	line-height: 14px;
 	text-transform: uppercase;
 	font-weight: 500;
 	transition: color 0.3s;
 }
 
-.lang__item a:hover,
-.lang__item a._active {
+.lang__item a:hover{
 	color: #4B39BE;
+}
+
+.lang__item a._active {
+	color: #1B1B1B;
 }
 
 /*Menu*/
@@ -3675,6 +3678,10 @@ input[type=file]::-webkit-file-upload-button {
 		height: 30px;
         cursor: pointer;
 		align-self: flex-start;
+	}
+
+	.lang .lang__item:last-of-type{
+		display: none;
 	}
 
 	.header__mmenu span {
