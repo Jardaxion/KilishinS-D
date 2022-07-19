@@ -77,9 +77,9 @@ $(function() {
 			let lang = $(this).data("lang");
 	
 			if (lang == 'ru') {
-				$(this).data("lang", 'eng');
-				$(this).text('eng');
-				$("html").attr("lang",'eng');
+				$(this).data("lang", 'en');
+				$(this).text('en');
+				$("html").attr("lang",'en');
 			} else {
 				$(this).data("lang", 'ru');
 				$(this).text('ru');

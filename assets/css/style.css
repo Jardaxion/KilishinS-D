@@ -7436,7 +7436,7 @@ body._lock {
 }
 
 @media (max-width: 420px) {
-	.portfolio__item {
+	.portfolio__item:not(.works__item) {
 		height: 280px !important;
 	}
 }
@@ -7444,5 +7444,6 @@ body._lock {
 @media (max-width: 350px) {
 	.portfolio__item {
 		height: 230px !important;
+		width: 150px !important;
 	}
 }
