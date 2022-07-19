@@ -1852,7 +1852,7 @@ input[type=file]::-webkit-file-upload-button {
 
 .section-masonry .portfolio__item-title {
 	color: #fff;
-	font-size: 22px !important;
+	font-size: 16px !important;
 }
 
 .portfolio__item-title._white {
@@ -7433,6 +7433,13 @@ body._lock {
 
 .white{
 	color: white;
+}
+
+@media (max-width: 1280px){
+	.works__item {
+		width: 221px;
+		height: 337px;
+	}
 }
 
 @media (max-width: 420px) {
