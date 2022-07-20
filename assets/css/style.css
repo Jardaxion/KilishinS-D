@@ -1367,8 +1367,8 @@ input[type=file]::-webkit-file-upload-button {
 .container {
 	max-width: 1685px;
 	width: 100%;
-	padding-right: 15px;
-	padding-left: 15px;
+	padding-right: 50px;
+	padding-left: 50px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -2055,7 +2055,7 @@ input[type=file]::-webkit-file-upload-button {
 
 @media (max-width: 1500px) {
 	.portfolio__item {
-		height: 360px;
+		height: 400px;
 	}
 
 	.portfolio__item-title {
@@ -3675,6 +3675,11 @@ input[type=file]::-webkit-file-upload-button {
 @media screen and (max-width: 767px) {
 	.header__order {
 		display: none;
+	}
+
+	.container{
+		padding-left: 5px;
+		padding-right: 5px;
 	}
 
 	.header__mmenu {
@@ -5715,6 +5720,7 @@ footer {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	padding: 0;
 }
 
 .copyright__langs {
@@ -7449,8 +7455,12 @@ body._lock {
 }
 
 @media (max-width: 350px) {
-	.portfolio__item {
+	.works__item {
 		height: 230px !important;
 		width: 150px !important;
 	}
+}
+
+.copyrightFooter{
+	background: #131313;
 }
